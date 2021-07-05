@@ -1,0 +1,74 @@
+#navbar{
+    background-color: white !important;
+    font-family: 'Bona Nova', serif;
+    color: black !important;
+}
+.nav-link{
+    color: black !important;
+}
+
+.socials{
+    margin-left: auto;
+    margin-right: 0;
+}
+#icon1{
+    margin-right:10px;
+}
+#icon2{
+    margin-right:10px;
+}
+#img{
+    border-radius: 20px;
+}
+
+.heading{
+    font-family: 'Bona Nova', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#dropbtn {
+    color: white;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover #dropbtn {
+    background-color: white;
+}
+p{
+    padding-right: 200px;
+
+}
+
+
+@media screen and (max-width:770px) {
+   p{
+       padding-right: 0px;
+   }
+
+}
