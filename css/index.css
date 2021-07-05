@@ -33,6 +33,13 @@ img{
     padding-right: 50px;
 
 }
+.heading3{
+    font-family: 'Bona Nova', serif;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 50px;
+
+}
 
 #dropbtn {
     color: white;
@@ -67,10 +74,15 @@ img{
 .dropdown:hover #dropbtn {
     background-color: white;
 }
-p{
+.p1{
     padding-left: 50px;
     padding-right: 50px;
 }
+.p2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .sharebtns{
     display: none;
 }
@@ -111,12 +123,16 @@ p{
 
 
 }
+body{
+    width: 60%;
+    margin: auto;
+}
 
 
 @media screen and (max-width:1440px){
-    p{
-        padding-left: 10px;
-        padding-right: 10px;
+    .p1{
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .heading2{
         padding-left: 10px;
@@ -129,6 +145,8 @@ p{
     }
     body{
         zoom: 175%;
+        width: 100%;
+        margin: auto;
     }
 
 }
