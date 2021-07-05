@@ -11,6 +11,14 @@
     margin-left: auto;
     margin-right: 0;
 }
+#openNav{
+    margin-left: 70%;
+    margin-right: 0;
+}
+#closeNav{
+    margin-left: 60%;
+    margin-right: 0;
+}
 #icon1{
     margin-right:10px;
 }
@@ -72,7 +80,10 @@ img{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover #dropbtn {
-    background-color: white;
+    background-color: transparent;
+}
+.dropdown-content2{
+    display: none;
 }
 .p1{
     padding-left: 50px;
@@ -127,6 +138,10 @@ body{
     width: 60%;
     margin: auto;
 }
+#home2{
+    display: none;
+}
+
 
 
 @media screen and (max-width:1440px){
@@ -148,6 +163,18 @@ body{
         width: 100%;
         margin: auto;
     }
+    #openNav, #closeNav{
+        display: none;
+    }
+    .socials{
+        margin-top: 10px;
+    }
+    .dropdown-content {
+        display: none;
+    }
+  
+
+
 
 }
 
