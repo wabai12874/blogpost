@@ -112,7 +112,8 @@ p{
 
 }
 
-@media screen and (max-width:770px){
+
+@media screen and (max-width:1440px){
     p{
         padding-left: 10px;
         padding-right: 10px;
@@ -125,6 +126,9 @@ p{
     .btn-outline-warning{
         margin-left: 10px;
 
+    }
+    body{
+        zoom: 120%;
     }
 
 }
