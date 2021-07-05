@@ -26,6 +26,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.heading2{
+    font-family: 'Bona Nova', serif;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+
+}
 
 #dropbtn {
     color: white;
@@ -61,14 +68,21 @@
     background-color: white;
 }
 p{
-    padding-right: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width:770px){
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .heading2{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
 
 }
 
 
-@media screen and (max-width:770px) {
-   p{
-       padding-right: 0px;
-   }
-
-}
